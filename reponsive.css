@@ -1,0 +1,34 @@
+@media (min-width: 740px) and (max-width:1024px){
+    .content .home1{
+        width: 100%;
+        
+    }
+    
+}
+@media (max-width: 740px) {
+
+    h1{
+        font-size: 20px !important;
+    }
+    h2{
+        font-size: 15px !important;
+    }
+    .header{
+        display: none;
+    }
+    .content .about1{
+        margin-top: 0px;
+    }
+    .content .about1{
+        line-height: 18px;
+        
+    }
+    .services1 .phananhsv{
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .header2{
+        display: flex;
+    }
+}
